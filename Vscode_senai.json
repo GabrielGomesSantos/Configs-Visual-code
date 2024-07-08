@@ -1,6 +1,8 @@
 {
-  // Geral Config 
-  "window.menuBarVisibility": "toggle",
+  "arduino.useArduinoCli": true,
+
+  //safe
+  "files.autoSave": "afterDelay",
 
   
   // Workbench Config 
@@ -9,7 +11,7 @@
   "workbench.colorTheme": "Min Dark",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.list.smoothScrolling": true,
-  "workbench.activityBar.location": "hidden", // comment if you want to hide activity bar
+ // "workbench.activityBar.location": "hidden", // comment if you want to hide activity bar
   
   
   // Symbol Config
@@ -48,7 +50,7 @@
 
   
   // APC Pluggin Config
-  // "apc.font.family": "JetBrains Mono", // uncomment if you want to use custom font
+  "apc.font.family": "JetBrains Mono", // uncomment if you want to use custom font
   "apc.header": {
     "height": 36,
   },
@@ -65,5 +67,14 @@
   // Terminal Config
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "terminal.external.windowsExec": "wt"
+  "terminal.external.windowsExec": "wt",
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file:///c:/Users/dev-sistemas-tarde/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.2/dist/updateHandler.js"
+  ],
+  "workbench.statusBar.visible": true,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open"
 }
